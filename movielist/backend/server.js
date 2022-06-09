@@ -43,10 +43,7 @@ app.use(
     secret: 'very very very very very secret key',
     resave: false,
     saveUninitialized: false,
-    store: store,
-    cookie: {
-        sameSite: 'strict'
-    }
+    store: store
 })
 );
 
