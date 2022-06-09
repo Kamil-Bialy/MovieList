@@ -44,8 +44,6 @@ function MovieDetails(details)
 			progress: tempProgress
         }
 
-        console.log(newMovie);
-
         details.update(details.id, newMovie);
 
         details.closeDetails(e);
